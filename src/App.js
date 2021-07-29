@@ -5,6 +5,7 @@ import {
     Route,
     Link
 } from "react-router-dom";
+import Users from "./components/Users/Users";
 
 function App() {
     return (
@@ -15,7 +16,9 @@ function App() {
             </div>
 
             <Switch>
-                <Route />
+                <Route path={'/users'} render={() => {
+                    return <Users/>
+                }}/>
             </Switch>
         </Router>
     );
