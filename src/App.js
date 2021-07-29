@@ -35,7 +35,6 @@ function App() {
               }}/>
           </Switch>
       </Router>
-      //<button onClick={() => dispatch({type: 'INC_A', payload: 1})}> click me A {a}</button>
   );
 }
 

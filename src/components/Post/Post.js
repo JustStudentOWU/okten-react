@@ -2,7 +2,7 @@ export default function Post({item}) {
 
     return(
         <div>
-            {item.title} - {item.body}
+            {item.id} - {item.title} - {item.body}
         </div>
     )
 }
